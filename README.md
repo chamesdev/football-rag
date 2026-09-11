@@ -4,7 +4,7 @@ Short description of what this project does.
 
 ## What it does
 
-RAG chatbot that answers questions about football statistics (Premier League, Champions League, La Liga — 2025/26 season) using real data, not guesses.
+RAG chatbot that answers questions about football statistics (Premier League, Champions League, La Liga in the 2025/26 season) using real data, not guesses.
 
 ## Tech Stack
 
@@ -22,15 +22,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Create a `.env` file:
+Copy the .env.example file, and add your own api key.
 
-```
-API_FOOTBALL_KEY=your_key_here
-```
+football-api.com for
+
 
 ## Usage
 
 ```bash
+source venv/bin/activate
 python main.py
 ```
 
@@ -38,8 +38,8 @@ python main.py
 
 ```
 football-rag/
-├── data/           # raw + processed data
-├── src/            # source code
+├── data/
+├── src/
 ├── .env
 ├── requirements.txt
 └── README.md
@@ -47,6 +47,6 @@ football-rag/
 
 ## Status
 
-In progress — learning project for RAG.
+In progress - learning project for RAG.
 
 ## Notes
